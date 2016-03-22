@@ -1,0 +1,8 @@
+megh@megh-VirtualBox:~$ sudo /etc/init.d/cups start
+ * Starting Common Unix Printing System cupsd                         [ OK ] 
+megh@megh-VirtualBox:~$ sudo /etc/init.d/cups stop
+ * Stopping Common Unix Printing System cupsd                         [ OK ] 
+megh@megh-VirtualBox:~$ sudo /etc/init.d/cups restart
+ * Restarting Common Unix Printing System cupsd                       [ OK ] 
+megh@megh-VirtualBox:~$ 
+
