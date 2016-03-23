@@ -1,0 +1,26 @@
+Meghna Patel
+IT 340-002
+Print Server - CUPS
+
+Deliverables
+
+1. Install a print servie on your system
+2. Configure it to log all print jobs received
+3. Cofigure Nagios to monitor the print service
+4. Configure logrotate to rotate the print job logs
+
+#history of used commands
+
+sudo apt-get install cups
+sudo apt-get update
+sudo apt-get install git
+etc/nagios3-common/conf.d
+sudo /etc/init.d/cups start
+sudo /etc/init.d/cups restart
+sudo /etc/init.d/cups stop
+echo "#340-CUPS" >> README.md
+git init
+git add README.md
+git commit -m 'first commit'
+git remote add origin https://github.com/megh4ever02/340-CUPS.git
+git push -u origin master
